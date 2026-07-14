@@ -20,12 +20,12 @@ Scripts for BIOS/UEFI debugging, PCIe diagnostics, and system analysis on Intel 
 
 ```bash
 # Download single tool
-curl -O https://raw.githubusercontent.com/Timc21/Tim_bios_tools/main/tools/memmap_go.sh
+curl -O https://raw.githubusercontent.com/Timc21/bios_tools/main/tools/memmap_go.sh
 chmod +x memmap_go.sh
 
 # Or clone all
-git clone https://github.com/Timc21/Tim_bios_tools.git
-cd Tim_bios_tools/tools && chmod +x *.sh
+git clone https://github.com/Timc21/bios_tools.git
+cd bios_tools/tools && chmod +x *.sh
 ```
 
 ---
