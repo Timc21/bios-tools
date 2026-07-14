@@ -4,7 +4,7 @@ Scripts for BIOS/UEFI debugging, PCIe diagnostics, and system analysis on Intel 
 
 ## Tools
 
-| Tool | Description | Platform |
+| Tool | Description | Type |
 |------|-------------|----------|
 | [memmap_go.sh](tools/memmap_go.sh) | Physical memory map summary + visual layout + MTRR check | Linux |
 | [chk_pci_reg.sh](tools/chk_pci_reg.sh) | Dump PCIe Root Port / Endpoint config registers | Linux |
@@ -13,7 +13,7 @@ Scripts for BIOS/UEFI debugging, PCIe diagnostics, and system analysis on Intel 
 | [hybrid_aer.sh](tools/hybrid_aer.sh) | Configure PCIe AER/DPC on Intel Root Ports | Linux |
 | [reboot_go.sh](tools/reboot_go.sh) | Automated reboot cycle test with counter | Linux |
 | [redfish_inband_go.sh](tools/redfish_inband_go.sh) | In-band Redfish BIOS configuration via BMC | Linux |
-| [build_ami.py](tools/build_ami.py) | AMI Aptio V BIOS build automation | Windows |
+| [build_ami.py](tools/build_ami.py) | AMI Aptio V BIOS build automation | Python |
 | [json_trans.py](tools/json_trans.py) | Extract and pretty-print JSON from raw text/log | Python |
 
 ## Quick Start
